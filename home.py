@@ -2,17 +2,17 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('Group A: Team 2') 
+st.title('Group A: Team 4') 
 st.subheader('Members:')
 col1, col2 = st.columns(2, vertical_alignment = 'center')
 with col1:
-    st.markdown('🧒🏻 Sangay Lakshay Yangzom')
-    st.markdown('🧔🏻‍♂️ Chandra Man Limbu')
+    st.markdown('Sonam Jamtsho')
+    st.markdown('Megnath')
     
 with col2:
-    st.markdown('👱🏻‍♀️ Nob Gyem')
-    st.markdown('👱🏻 Kinzang Dorji')
-st.markdown('👩🏻‍🦳 Kinley Pem')
+    st.markdown('Sonam Deki')
+    st.markdown('Tshering Yangki')
+st.markdown('Dorji Tshering')
 
 st.subheader('Project Description:')
 st.markdown('The project is about predicting the number of overnight visitors in Bhutan. The dataset is collected from the UN Data and had been preprocessed and cleaned. The dataset contains the following columns:')
