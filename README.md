@@ -1,1 +1,2 @@
 # BhutanTourismProject
+This project is about predicting the number of overnight visitors in Bhutan. The dataset is collected from the UN Data and had been preprocessed and cleaned. The model used for prediction is a Random Forest Regressor model. The model is trained on the dataset and the model is saved as a pickle file. The model is then loaded and used to predict the number of overnight visitors based on the user input.
